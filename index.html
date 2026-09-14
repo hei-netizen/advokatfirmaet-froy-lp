@@ -286,6 +286,8 @@ h1,h2,h3,h4{font-family:var(--mont);font-weight:800;line-height:1.08;letter-spac
   color:var(--clay);display:grid;place-items:center;font-size:1.05rem;font-weight:800;
   box-shadow:0 6px 18px -6px rgba(12,32,51,.5)}
 .folk{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:34px}
+.split.tre{margin-top:34px;grid-template-columns:1fr 1fr 1fr;gap:20px}
+@media(max-width:880px){.split.tre{grid-template-columns:1fr}}
 .folk figure{margin:0}
 .folk img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:var(--r);
   border:1px solid var(--line);box-shadow:var(--sh-sm)}
@@ -474,7 +476,7 @@ h1,h2,h3,h4{font-family:var(--mont);font-weight:800;line-height:1.08;letter-spac
       <h2 class="h-lg" style="margin:12px 0 10px">Tre situasjoner &mdash; er din en annen, ta kontakt likevel</h2>
       <p class="lede">Vi hjelper privatpersoner og sm&aring; og mellomstore bedrifter med fast eiendom, familie og arv, arbeidsrett og n&aelig;ringsliv.</p>
     </div>
-    <div class="split" style="margin-top:34px;grid-template-columns:1fr 1fr 1fr;gap:20px">
+    <div class="split tre">
       <div class="rev-card">
         <img src="img/espen-kolflaath.webp" alt="Espen Kolflaath, advokat i Advokatfirmaet Fr&oslash;y" style="width:100%;aspect-ratio:4/3;object-fit:cover;object-position:center 15%;border-radius:var(--rs);margin-bottom:14px">
         <h4 style="font-size:1.08rem;margin-bottom:7px">Bolig, nabo og eiendom</h4>
